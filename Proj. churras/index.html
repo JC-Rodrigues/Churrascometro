@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Churras</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Churrascômetro</h1>
+    </div>
+
+    <section>
+        <p>Comprar a quantidade certa de ingredientes para o churrasco não é uma tarefa fácil. Por isso, criamos uma ferramenta para ajudá-lo nas compras.</p>
+    </section>
+
+    <div class="container">
+        <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+        <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+        <input id="duracao" name="duracao" type="number" placeholder="Duração (Hrs)">
+        <button onclick="calcular()">Calcular meu churrasco</button>
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+    <div id="image">
+        <img src="./assets/bbq1.png" alt="Homen preparando churrasco">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
